@@ -7,6 +7,7 @@ import java.util.List;
 public class Exercise07 {
 
     public static void main(String[] args) {
+        positionInAList(9);
         sumFirstNaturalNumbers(10);
         showFirstNaturalNumbers(50);
 
@@ -21,7 +22,7 @@ public class Exercise07 {
     public static void positionInAList(int num) {
         List<Integer> lista = new ArrayList<>();
 
-        for (int i = 10; i >= 1; i--) {
+        for (int i = 1; i <= 10; i++) {
             lista.add(i);
         }
 
@@ -39,7 +40,7 @@ public class Exercise07 {
     // Que imprima como mensaje la suma de los primeros N números positivos
     public static void sumFirstNaturalNumbers(int num) {
         int sum = 0;
-        for (int i = num; i >= 1; i--) {
+        for (int i = 1; i <= num; i++) {
             int numero=sum;
             sum = i+sum;
 
@@ -52,8 +53,8 @@ public class Exercise07 {
     // Que imprima por pantalla los N primeros números positivos
     public static void showFirstNaturalNumbers(int num) {
         System.out.print("Los numeros positivos son: ");
-        for (int i = num; i >= 1; i--) {
-            if (i!=1){
+        for (int i = 1; i <= num; i++) {
+            if (i!=num){
                 System.out.print(i+", ");
             }else {
                 System.out.print(i);
