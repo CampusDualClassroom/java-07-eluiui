@@ -28,9 +28,9 @@ public class Exercise07 {
         int posicion = lista.indexOf(num);
 
         if (posicion !=-1) {
-            System.out.println("El elemento " + num + " se encuentra en la posición: " + posicion);
+            System.out.println(num + " se encuentra en la posición: " + posicion);
         } else {
-            System.out.println("El elemento " + num + " no se encuentra en la lista.");
+            System.out.println(num + " no se encuentra en la lista.");
         }
 
     }
