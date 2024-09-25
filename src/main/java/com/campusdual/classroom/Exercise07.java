@@ -11,6 +11,7 @@ public class Exercise07 {
         sumFirstNaturalNumbers(10);
         showFirstNaturalNumbers(50);
 
+        
     }
 
     //TODO ↓
